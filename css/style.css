@@ -1,0 +1,179 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+.contenedor-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-logo a {
+  text-decoration: none;
+}
+
+.contenedor-logo img {
+  width: 80%;
+}
+
+/* estilos botones */
+.btn-buscar,
+.btn-generate,
+.btn-favoritos,
+.btn-regresar {
+  background-color: #13296a;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0 7px 7px 0;
+  cursor: pointer;
+}
+
+.btn-generate,
+.btn-favoritos,
+.btn-regresar {
+  border-radius: 7px;
+}
+
+.btn-buscar:hover,
+.btn-generate:hover,
+.btn-regresar:hover {
+  background-color: #0d1c4f;
+}
+
+.btn-quitar {
+  background-color: rgb(233, 16, 16);
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.btn-favoritos {
+  margin-left: 1rem;
+}
+
+#resultsContainer a {
+  text-decoration: none;
+}
+
+.booklist {
+  padding: 3rem 0;
+  background-color: #f8f9fa;
+}
+
+.booklist-content {
+  gap: 3rem;
+}
+
+.book-item {
+  padding: 2rem 1rem;
+  border-radius: 7px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 15px 0px;
+  transition: box-shadow 0.3s ease;
+}
+
+.book-item:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.book-item-img {
+  min-height: 195px;
+  display: flex;
+  align-items: center;
+}
+
+.book-item-img img {
+  max-width: 180px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.book-item-info {
+  margin-top: 2rem;
+}
+
+.book-item-info-item.title {
+  line-height: 1.4;
+  margin-bottom: 0.8rem;
+}
+
+.book-item-info-item.author {
+  line-height: 1.4;
+  margin-bottom: 4px;
+}
+
+.book-item-info-item:not(.book-item-info-item.title) span:last-child {
+  opacity: 0.8;
+}
+
+.book-item-info-item.publish-year {
+  opacity: 0.6;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.span-block {
+  display: block;
+}
+
+
+/* Estilos favoritos */
+#favoritesContainer a,
+span {
+  text-decoration: none;
+}
+
+/* Estilos modal */
+.modal-content {
+  min-height: 250px;
+}
+.modal-body{
+  justify-content: center;
+}
+.modal-body p{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* estilos aleatorios */
+.texto-aleatorio {
+  text-align: center;
+  font-size: 1.2rem;
+  width: 90%;
+  margin-bottom: 1rem;
+}
+
+
+/* footer */
+footer {
+  margin-top: auto;
+}
+
+footer .container {
+  padding-bottom: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  color: #0d1c4f;
+}
+
+
+@media (min-width: 768px) {
+  .navbar-expand-lg {
+    padding: 0 2rem;
+  }
+
+  .texto-aleatorio {
+    width: 50%;
+  }
+}

@@ -1,0 +1,32 @@
+{
+    "theme_color": "#13296a",
+    "background_color": "#fff",
+    "display": "minimal-ui",
+    "scope": "/",
+    "start_url": "/index.html",
+    "name": "Milenio",
+    "short_name": "MIL",
+    "description": "Una app que me brinda libros",
+    "icons": [
+        {
+            "src": "img/icon/milenio192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icon/milenio256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icon/milenio348x348.png",
+            "sizes": "348x348",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icon/milenio512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
